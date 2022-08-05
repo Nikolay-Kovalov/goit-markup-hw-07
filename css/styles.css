@@ -1,10 +1,16 @@
 
 :root {
+  /* Colors */
 --primary-text-color: #757575;
 --title-text-color: #212121;
 --accent-color: #2196F3;
 --background-header:#FFFFFF;
 --background-footer:#2F303A;
+/* Fonts */
+--fontsize-main: 14px;
+--fontsize-secondary: 16px;
+--fontweight-main: 700;
+--fontweight-secondary: 500;
 }
 /* Styles index.html */
 /* Body */
@@ -48,8 +54,8 @@ width: 200px;
   border-radius: 4px;
   border: 0px;
 
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: var(--fontweight-main);
+  font-size: var(--fontsize-secondary);
   line-height: 1.88px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
@@ -62,7 +68,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-weight: var(--fontweight-main);
   font-size: 26px;
   line-height: 1.19
 }
@@ -127,9 +133,9 @@ padding-bottom: 25px;
 }
 
 .logo__web {
-color: #2196F3;
+color: var(--accent-color);
 font-family: Raleway, sans-serif;
-font-weight: 700;
+font-weight: var(--fontweight-main);
 font-size: 26px;
 line-height: 1.19;
 }
@@ -151,8 +157,8 @@ padding-top: 32px;
 padding-bottom: 32px;
     
 color:#212121;
-font-weight: 500;
-font-size: 14px;
+font-weight: var(--fontweight-secondary);
+font-size: var(--fontsize-main);
 line-height: 1.14;
 letter-spacing: 0.02em;
 
@@ -197,8 +203,8 @@ padding-top: 32px;
 padding-bottom: 32px;
 
 color: var(--primary-text-color);
-font-weight: 500;
-font-size: 14px;
+font-weight: var(--fontweight-secondary);
+font-size:var(--fontsize-main);
 line-height: 1.14;
 letter-spacing: 0.02em;
 
@@ -332,7 +338,7 @@ justify-content: center;
 .form__title {
 display: block;
 margin-bottom: 12px;
-font-weight: 700;
+font-weight: var(--fontweight-main);
 font-size: 20px;
 line-height: calc(23 / 20);
 text-align: center;
@@ -404,7 +410,7 @@ padding: 12px 16px;
 }
 
 .form-comments__input::placeholder {
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: calc(16 / 14);
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
@@ -443,14 +449,14 @@ margin-bottom: 30px;
 }
 
 .form-checkbox__heading {
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.71px;
 color: #757575;
 user-select: none;
 }
 
 .form-checkbox__link {
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.71px;
 text-decoration-line: underline;
 color: var(--accent-color);
@@ -506,13 +512,13 @@ margin-top: 30px;
 margin-bottom: 10px;
 
 color: var(--title-text-color);
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.14;
 text-transform: uppercase;
 }
 
 .advantage-section__text {
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.71;
 }
 /* Work */
@@ -538,7 +544,7 @@ width: 100%;
 padding-top: 27px;
 padding-bottom: 27px;
 
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.14;
 text-align: center;
 text-transform: uppercase;
@@ -570,15 +576,15 @@ background-color: #F5F4FA;
 margin-bottom: 10px;
 
 color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
+font-weight: var(--fontweight-secondary);
+font-size: var(--fontsize-secondary);
 line-height: 1.19; 
 }
 
 .card-content__text {
 margin-bottom: 16px; 
 
-font-size: 16px;
+font-size: var(--fontsize-secondary);
 line-height: 1.19;
 }
 
@@ -697,7 +703,7 @@ margin-bottom: 9px;
 .address__link {
 color: #FFFFFF;
 font-style: normal;
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.71px; 
 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -721,7 +727,7 @@ padding-top: 12px;
 margin-bottom: 20px;
 
 color: #FFFFFF;
-font-size: 14px;
+font-size: var(--fontsize-main);
 line-height: 1.14;
 text-transform: uppercase;
 }
@@ -748,8 +754,8 @@ fill:#FFFFFF;
   display: block;
   margin-bottom: 20px;
 
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: var(--fontweight-main);
+  font-size: var(--fontsize-main);
   line-height: calc(16 / 14);
   text-transform: uppercase;
 
@@ -763,7 +769,7 @@ fill:#FFFFFF;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 16px;
+  font-size: var(--fontsize-secondary);
   line-height: 1.25px;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -835,7 +841,7 @@ background-color: #F5F4FA;
 color: #212121;
 font-family: inherit;
 font-weight: 500;
-font-size: 16px;
+font-size: var(--fontsize-secondary);
 line-height: 1.62;
 
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),

@@ -75,6 +75,17 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -516,18 +527,6 @@ justify-content: center;
 flex-basis: 370px;
 }
 
-.work-section__title {
-width: 376px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 50px;
-
-color: var(--title-text-color);
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-}
-
 .work-section__item:not(:last-child){
 margin-right: 30px;
 }
@@ -565,18 +564,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 .team-section {
 background-color: #F5F4FA;
-}
-
-.team-section__title {
-width: 264px;
-margin-bottom: 50px;
-margin-left: auto;
-margin-right: auto;
-
-color: var(--title-text-color);
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
 }
 
 .card-content__title {
@@ -643,18 +630,6 @@ fill:#FFFFFF;
 }
 
 /* Clients */
-
-.clients-section__title {
-width: 390px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 50px;
-
-color: var(--title-text-color);
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-}
 
 .clients-section__list {
 display: flex;

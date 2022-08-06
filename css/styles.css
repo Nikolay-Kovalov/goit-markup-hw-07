@@ -1,31 +1,37 @@
-
 :root {
   /* Colors */
---primary-text-color: #757575;
---title-text-color: #212121;
---accent-color: #2196F3;
---background-header:#FFFFFF;
---background-footer:#2F303A;
-/* Fonts */
---fontsize-main: 14px;
---fontsize-secondary: 16px;
---fontweight-main: 700;
---fontweight-secondary: 500;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --background-header: #FFFFFF;
+  --background-footer: #2F303A;
+  /* Fonts */
+  --fontsize-main: 14px;
+  --fontsize-secondary: 16px;
+  --fontweight-main: 700;
+  --fontweight-secondary: 500;
 }
+
 /* Styles index.html */
 /* Body */
 
 body {
-color: var(--primary-text-color);
-font-family: Roboto, sans-serif;
-letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-
 
 /* Common styles  */
 
-h1, h2, h3, h4, h5, h6, ul, p {
-margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
 }
 
 .list {
